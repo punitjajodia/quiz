@@ -1,18 +1,18 @@
 {
     "questions": [{
             "id": 34545454,
-            "question": "Identify the figure that comes next in the sequence<br/><img src='images/logic.png' />",
+            "question": "Identify the figure that comes next in the sequence<br/><img src='images/logic.PNG' />",
             "answers": [{
-                "answer": "<img src='images/logic1.png' />",
+                "answer": "<img src='images/logic1.PNG' />",
                 "correct": true
             }, {
-                "answer": "<img src='images/logic2.png' />",
+                "answer": "<img src='images/logic2.PNG' />",
                 "correct": false
             }, {
-                "answer": "<img src='images/logic3.png' />",
+                "answer": "<img src='images/logic3.PNG' />",
                 "correct": false
             }, {
-                "answer": "<img src='images/logic1.png' />",
+                "answer": "<img src='images/logic1.PNG' />",
                 "correct": false
             }]
         },
