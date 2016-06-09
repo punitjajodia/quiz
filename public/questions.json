@@ -255,18 +255,18 @@
             }]
         }, {
             "id": 45456565654,
-            "question": "If one-fourth of A’s monthly income is equal to two-seventh of B’s monthly income and the total monthly income of both A and B is Rs. 60000, what is B’s monthly income (in Rs.)?",
+            "question": "A container contains 30 liters of milk. From this container 5 liter of milk was taken out and replaced by water. This process was repeated further two times. How much milk is now contained by the container?",
             "answers": [{
-                "answer": "29000",
+                "answer": "18.45 liter",
                 "correct": false
             }, {
-                "answer": "40000",
+                "answer": "23.44 liter",
                 "correct": false
             }, {
-                "answer": "28000",
+                "answer": "17.36 liter",
                 "correct": true
             }, {
-                "answer": "20000",
+                "answer": "21.87 liter",
                 "correct": false
             }]
         }, {
