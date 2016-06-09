@@ -176,6 +176,38 @@
                 "answer": "IV",
                 "correct": false
             }]
+        },
+        {
+            "id": 454656,
+            "question": "ELFA GLHA ILJA _____ MLNA<br/>What should fill the blank ? ",
+            "answers": [{
+                "answer": "OLPA",
+                "correct": true
+            }, {
+                "answer": "KLMA",
+                "correct": false
+            }, {
+                "answer": "LLMA",
+                "correct": false
+            }, {
+                "answer": "KLLA",
+                "correct": false
+            }]
+        },
+        {
+            "id": 454656,
+            "question": "Class A has a higher enrollment than Class B.<br/>Class C has a lower enrollment than Class B.<br/>Class A has a lower enrollment than Class C.<br/>If the first two statements are true, the third statement is",
+            "answers": [{
+                "answer": "true.",
+                "correct": true
+            }, {
+                "answer": "false.",
+                "correct": false
+            }, {
+                "answer": "uncertain",
+                "correct": false
+            }]
         }
+
     ]
 }
