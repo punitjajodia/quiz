@@ -176,8 +176,7 @@
                 "answer": "IV",
                 "correct": false
             }]
-        },
-        {
+        }, {
             "id": 454656,
             "question": "ELFA GLHA ILJA _____ MLNA<br/>What should fill the blank ? ",
             "answers": [{
@@ -193,8 +192,7 @@
                 "answer": "KLLA",
                 "correct": false
             }]
-        },
-        {
+        }, {
             "id": 454656,
             "question": "Class A has a higher enrollment than Class B.<br/>Class C has a lower enrollment than Class B.<br/>Class A has a lower enrollment than Class C.<br/>If the first two statements are true, the third statement is",
             "answers": [{
@@ -207,8 +205,7 @@
                 "answer": "uncertain",
                 "correct": false
             }]
-        },
-        {
+        }, {
             "id": 454656,
             "question": "Danielle has been visiting friends in Ridgewood for the past two weeks. She is leaving tomorrow morning and her flight is very early. Most of her friends live fairly close to the airport. Madison lives ten miles away. Frances lives five miles away, Samantha, seven miles. Alexis is farther away than Frances, but closer than Samantha. Approximately how far away from the airport is Alexis?",
             "answers": [{
@@ -220,14 +217,11 @@
             }, {
                 "answer": "eight miles",
                 "correct": false
-            },
-            {
+            }, {
                 "answer": "six miles",
                 "correct": false
-            }
-        ]
-        },
-        {
+            }]
+        }, {
             "id": 454565656,
             "question": "At the baseball game, Henry was sitting in seat 253. Marla was sitting to the right of Henry in seat 254. In the seat to the left of Henry was George. Inez was sitting to the left of George. Which seat is Inez sitting in?",
             "answers": [{
@@ -239,14 +233,11 @@
             }, {
                 "answer": "255",
                 "correct": false
-            },
-            {
+            }, {
                 "answer": "256",
                 "correct": false
-            }
-        ]
-        },
-        {
+            }]
+        }, {
             "id": 45456565654,
             "question": "<img src='images/graph.PNG' /> <br/>If production of Grade B widgets increased by 26% from 2012 to 2013 what would be the value of Grade B widgets produced in 2013?",
             "answers": [{
@@ -258,14 +249,11 @@
             }, {
                 "answer": "$151,200",
                 "correct": false
-            },
-            {
+            }, {
                 "answer": "$226,800",
                 "correct": false
-            }
-        ]
-        },
-        {
+            }]
+        }, {
             "id": 45456565654,
             "question": "If one-fourth of A’s monthly income is equal to two-seventh of B’s monthly income and the total monthly income of both A and B is Rs. 60000, what is B’s monthly income (in Rs.)?",
             "answers": [{
@@ -277,14 +265,11 @@
             }, {
                 "answer": "28000",
                 "correct": true
-            },
-            {
+            }, {
                 "answer": "20000",
                 "correct": false
-            }
-        ]
-        },
-        {
+            }]
+        }, {
             "id": 45456565654,
             "question": "If one-fourth of A’s monthly income is equal to two-seventh of B’s monthly income and the total monthly income of both A and B is Rs. 60000, what is B’s monthly income (in Rs.)?",
             "answers": [{
@@ -296,17 +281,13 @@
             }, {
                 "answer": "28000",
                 "correct": true
-            },
-            {
+            }, {
                 "answer": "20000",
                 "correct": false
-            }
-        ]
-        },
-        {
+            }]
+        }, {
             "id": 23456565654,
-            "question": "The recent tariff hike of 3% by an airlines company witnessed a 2% fall in the air travel. However, despite the fall, the income of the company increased by Rs.4.7 crores. What was the income of IA prior to the tariff hike?
-",
+            "question": "The recent tariff hike of 3% by an airlines company witnessed a 2% fall in the air travel. However, despite the fall, the income of the company increased by Rs.4.7 crores. What was the income of IA prior to the tariff hike?",
             "answers": [{
                 "answer": "100 crores",
                 "correct": false
@@ -316,17 +297,13 @@
             }, {
                 "answer": "5 crores",
                 "correct": true
-            },
-            {
+            }, {
                 "answer": "500 crores",
                 "correct": false
-            }
-        ]
-        },
-        {
+            }]
+        }, {
             "id": 23456565654,
-            "question": "A restaurant buys fruit in cans containing 3 and 1/2 cups of fruit each. If the restaurant uses 1/2 cup of fruit in each serving of its fruit salad, what is the number of cans needed to prepare 60 servings of salad?
-",
+            "question": "A restaurant buys fruit in cans containing 3 and 1/2 cups of fruit each. If the restaurant uses 1/2 cup of fruit in each serving of its fruit salad, what is the number of cans needed to prepare 60 servings of salad?",
             "answers": [{
                 "answer": "7",
                 "correct": false
@@ -336,14 +313,11 @@
             }, {
                 "answer": "9",
                 "correct": true
-            },
-            {
+            }, {
                 "answer": "10",
                 "correct": false
-            }
-        ]
-        },
-        {
+            }]
+        }, {
             "id": 565654,
             "question": "In a class of 50 student, 20 are girls and rest are boys. Average weight of Girls and Boys are 45kg and 55 kg respectively. Then the mean weight of entire class in kg is:",
             "answers": [{
@@ -355,13 +329,10 @@
             }, {
                 "answer": "50.00",
                 "correct": false
-            },
-            {
+            }, {
                 "answer": "51.00",
                 "correct": true
-            }
-        ]
+            }]
         }
     ]
 }
-
