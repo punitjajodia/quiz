@@ -1,194 +1,181 @@
 {
-    "questions": [
-        {
-        "id": 34545454,
-        "question": "Identify the figure that comes next in the sequence<br/><img src='images/logic.png' />",
-        "answers": [{
-            "answer": "<img src='images/logic1.png' />",
-            "correct": true
-        }, {
-            "answer": "<img src='images/logic2.png' />",
-            "correct": false
-        }, {
-            "answer": "<img src='images/logic3.png' />",
-            "correct": false
-        }, {
-            "answer": "<img src='images/logic1.png' />",
-            "correct": false
-        }]
-    },
+    "questions": [{
+            "id": 34545454,
+            "question": "Identify the figure that comes next in the sequence<br/><img src='images/logic.png' />",
+            "answers": [{
+                "answer": "<img src='images/logic1.png' />",
+                "correct": true
+            }, {
+                "answer": "<img src='images/logic2.png' />",
+                "correct": false
+            }, {
+                "answer": "<img src='images/logic3.png' />",
+                "correct": false
+            }, {
+                "answer": "<img src='images/logic1.png' />",
+                "correct": false
+            }]
+        },
 
         {
-        "id": 34545454,
-        "question": "A software engineer has the capability of thinking 100 lines of code in five minutes and can type 100 lines of code in 10 minutes. He takes a break for five minutes after every ten minutes. How many lines of codes will he complete typing after an hour?",
-        "answers": [{
-            "answer": "250 lines of code",
-            "correct": true
+            "id": 34545454,
+            "question": "A software engineer has the capability of thinking 100 lines of code in five minutes and can type 100 lines of code in 10 minutes. He takes a break for five minutes after every ten minutes. How many lines of codes will he complete typing after an hour?",
+            "answers": [{
+                "answer": "250 lines of code",
+                "correct": true
+            }, {
+                "answer": "350 lines of code",
+                "correct": false
+            }, {
+                "answer": "300 lines of code",
+                "correct": false
+            }, {
+                "answer": "400 lines of code",
+                "correct": false
+            }]
         }, {
-            "answer": "350 lines of code",
-            "correct": false
+            "id": 34543435,
+            "question": "Five boys were climbing a hill. J was following H. R was just ahead of G. K was between G & H. They were climbing up in a column. Who was the second?",
+            "answers": [{
+                "answer": "J",
+                "correct": false
+            }, {
+                "answer": "H",
+                "correct": true
+            }, {
+                "answer": "R",
+                "correct": false
+            }, {
+                "answer": "G",
+                "correct": false
+            }, {
+                "answer": "None of the above",
+                "correct": true
+            }]
         }, {
-            "answer": "300 lines of code",
-            "correct": false
+            "id": 454656,
+            "question": "If every alternative letter starting from B of the English alphabet is written in small letter, rest all are written in capital letters, how the month “ September” be written",
+            "answers": [{
+                "answer": "SeptEMbEr",
+                "correct": true
+            }, {
+                "answer": "SeptEMbEr",
+                "correct": false
+            }, {
+                "answer": "SeptembeR",
+                "correct": false
+            }, {
+                "answer": "September",
+                "correct": false
+            }, {
+                "answer": "None of the above",
+                "correct": false
+            }]
         }, {
-            "answer": "400 lines of code",
-            "correct": false
-        }]
-    }, {
-        "id": 34543435,
-        "question": "Five boys were climbing a hill. J was following H. R was just ahead of G. K was between G & H. They were climbing up in a column. Who was the second?",
-        "answers": [{
-            "answer": "J",
-            "correct": false
+            "id": 45460056,
+            "question": "A student works in a factory during the holidays. He earns 10 Euros an hour. He works 8 hours a day, 5 days a week. How much money has he earned at the end of 4 weeks of work?",
+            "answers": [{
+                "answer": "1200 Euros",
+                "correct": true
+            }, {
+                "answer": "1500 Euros",
+                "correct": false
+            }, {
+                "answer": "800 Euros",
+                "correct": false
+            }, {
+                "answer": "2000 Euros",
+                "correct": false
+            }, {
+                "answer": "None of the above",
+                "correct": false
+            }]
         }, {
-            "answer": "H",
-            "correct": true
+            "id": 345435435,
+            "question": "2,600 bottles contain 650 litres of a soft drink. How many litres do 5,000 bottles hold?",
+            "answers": [{
+                "answer": "1000",
+                "correct": false
+            }, {
+                "answer": "1200",
+                "correct": true
+            }, {
+                "answer": "1800",
+                "correct": false
+            }, {
+                "answer": "2100",
+                "correct": false
+            }, {
+                "answer": "None of the above",
+                "correct": false
+            }]
         }, {
-            "answer": "R",
-            "correct": false
+            "id": 4546556346,
+            "question": "Corinna has a photo which is 9 cm wide and 6 cm high. She would like to enlarge it to a width of 15 cm. The ratio of width to height has to remain the same. How high will the photo be? ",
+            "answers": [{
+                "answer": "12",
+                "correct": true
+            }, {
+                "answer": "11",
+                "correct": false
+            }, {
+                "answer": "15",
+                "correct": false
+            }, {
+                "answer": "18",
+                "correct": false
+            }, {
+                "answer": "None of the above",
+                "correct": false
+            }]
         }, {
-            "answer": "G",
-            "correct": false
+            "id": 45465598,
+            "question": "The Shop and Save Grocery is south of Greenwood Pharmacy. Rebecca’s house is northeast of Greenwood Pharmacy. Rebecca’s house is west of the Shop and Save Grocery. If the first two statements are true, the third statement is",
+            "answers": [{
+                "answer": "False",
+                "correct": true
+            }, {
+                "answer": "True",
+                "correct": false
+            }, {
+                "answer": "Not Certain",
+                "correct": false
+            }]
         }, {
-            "answer": "None of the above",
-            "correct": true
-        }]
-    }, {
-        "id": 454656,
-        "question": "If every alternative letter starting from B of the English alphabet is written in small letter, rest all are written in capital letters, how the month “ September” be written",
-        "answers": [{
-            "answer": "SeptEMbEr",
-            "correct": true
+            "id": 4455465598,
+            "question": "28 25 5 21 18 5 14",
+            "answers": [{
+                "answer": "11 5",
+                "correct": true
+            }, {
+                "answer": "10 7",
+                "correct": false
+            }, {
+                "answer": "11 8",
+                "correct": false
+            }, {
+                "answer": "5 10",
+                "correct": false
+            }, {
+                "answer": "10 5",
+                "correct": false
+            }]
         }, {
-            "answer": "SeptEMbEr",
-            "correct": false
-        }, {
-            "answer": "SeptembeR",
-            "correct": false
-        }, {
-            "answer": "September",
-            "correct": false
-        }, {
-            "answer": "None of the above",
-            "correct": false
-        }]
-    }, {
-        "id": 45460056,
-        "question": "A student works in a factory during the holidays. He earns 10 Euros an hour. He works 8 hours a day, 5 days a week. How much money has he earned at the end of 4 weeks of work?",
-        "answers": [{
-            "answer": "1200 Euros",
-            "correct": true
-        }, {
-            "answer": "1500 Euros",
-            "correct": false
-        }, {
-            "answer": "800 Euros",
-            "correct": false
-        }, {
-            "answer": "2000 Euros",
-            "correct": false
-        }, {
-            "answer": "None of the above",
-            "correct": false
-        }]
-    }, {
-        "id": 345435435,
-        "question": "2,600 bottles contain 650 litres of a soft drink. How many litres do 5,000 bottles hold?",
-        "answers": [{
-            "answer": "1000",
-            "correct": false
-        }, {
-            "answer": "1200",
-            "correct": true
-        }, {
-            "answer": "1800",
-            "correct": false
-        }, {
-            "answer": "2100",
-            "correct": false
-        }, {
-            "answer": "None of the above",
-            "correct": false
-        }]
-    }, {
-        "id": 4546556346,
-        "question": "Corinna has a photo which is 9 cm wide and 6 cm high. She would like to enlarge it to a width of 15 cm. The ratio of width to height has to remain the same. How high will the photo be? ",
-        "answers": [{
-            "answer": "12",
-            "correct": true
-        }, {
-            "answer": "11",
-            "correct": false
-        }, {
-            "answer": "15",
-            "correct": false
-        }, {
-            "answer": "18",
-            "correct": false
-        }, {
-            "answer": "None of the above",
-            "correct": false
-        }]
-    }, {
-        "id": 45465598,
-        "question": "The Shop and Save Grocery is south of Greenwood Pharmacy. Rebecca’s house is northeast of Greenwood Pharmacy. Rebecca’s house is west of the Shop and Save Grocery. If the first two statements are true, the third statement is",
-        "answers": [{
-            "answer": "False",
-            "correct": true
-        }, {
-            "answer": "True",
-            "correct": false
-        }, {
-            "answer": "Not Certain",
-            "correct": false
-        }]
-    },
-    {
-        "id": 4455465598,
-        "question": "28 25 5 21 18 5 14",
-        "answers": [{
-            "answer": "11 5",
-            "correct": true
+            "id": 4455465598,
+            "question": "Look at this series: XXIV, XX, __, XII, VIII, . . . <br/>What number should fill the blank ? ",
+            "answers": [{
+                "answer": "XXII",
+                "correct": true
+            }, {
+                "answer": "XIII",
+                "correct": false
+            }, {
+                "answer": "XVI",
+                "correct": false
+            }, {
+                "answer": "IV",
+                "correct": false
+            }]
         }
-        ,
-        {
-            "answer": "10 7",
-            "correct": false
-        },
-        {
-            "answer": "11 8",
-            "correct": false
-        },
-         {
-            "answer": "5 10",
-            "correct": false
-        },
-        {
-            "answer": "10 5",
-            "correct": false
-        }]
-    },
-    {
-        "id": 4455465598,
-        "question": "Look at this series: XXIV, XX, __, XII, VIII, . . . <br/>
-What number should fill the blank?",
-        "answers": [{
-            "answer": "XXII",
-            "correct": true
-        }
-        ,
-        {
-            "answer": "XIII",
-            "correct": false
-        },
-        {
-            "answer": "XVI",
-            "correct": false
-        },
-         {
-            "answer": "IV",
-            "correct": false
-        }]
-    }
     ]
 }
