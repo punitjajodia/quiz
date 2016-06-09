@@ -1,0 +1,24 @@
+body {
+  width: 100%;
+  font-family: Arial;
+}
+
+input[type=radio] {
+  margin-bottom: 1rem;
+}
+
+.question{
+  margin-bottom: 1rem;
+}
+
+.next {
+  background: green;
+  color: white;
+}
+
+@media screen and (min-width:900px) {
+  body {
+    width: 980px;
+    margin: 0 auto;
+  }
+}

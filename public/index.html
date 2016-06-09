@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>React Tutorial</title>
+    <!-- Not present in the tutorial. Just for basic styling. -->
+    <link rel="stylesheet" href="css/base.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.1/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.1/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.16/browser.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remarkable/1.6.2/remarkable.min.js"></script>
+  </head>
+  <body>
+    <div id="content"></div>
+    <script type="text/babel">
+
+      var Question = React.createClass({
+        selectAnswer: function(e) {
+            this.props.onAnswer(e.target.value);
+        },
+
+        rawQuestion: function() {
+          return {__html: this.props.data.question}
+        },
+
+        rawAnswer: function(answer) {
+          return {__html: answer}
+        },
+
+        render: function(){
+          var that = this;
+
+          var answers = this.props.data.answers.map(function(answer, i){
+              return(
+                <div>
+                  <input type="radio" key={i} value={i} className="answer" onClick={that.selectAnswer} name={that.props.data.id} />
+                  <label  dangerouslySetInnerHTML={that.rawAnswer(answer.answer)} />
+                </div>
+              )
+          });
+
+          return(
+            <div className="quiz-question">
+              <div className="question" dangerouslySetInnerHTML={this.rawQuestion()} />
+              <div className="answers">{answers}</div>
+            </div>
+          );
+        }
+      })
+
+      var Quiz = React.createClass({
+
+        loadQuizFromServer: function() {
+              $.ajax({
+                url: this.props.url,
+                dataType: 'json',
+                cache: false,
+                success: function(quiz) {
+                  this.setState({questions: quiz.questions});
+                }.bind(this),
+                error: function(xhr, status, err) {
+                  console.error(this.props.url, status, err.toString());
+                }.bind(this)
+          });
+        },
+
+        getInitialState: function() {
+          return {questions: [], step:0, currentAnswer: 0, correct:0, wrong:0};
+        },
+
+        componentDidMount: function() {
+            this.loadQuizFromServer();
+        },
+
+        nextQuestion: function() {
+            console.log(this.state.questions[this.state.step]);
+            console.log(this.state.currentAnswer);
+            if(this.state.questions[this.state.step].answers[this.state.currentAnswer].correct === true) {
+              this.state.correct++;
+            } else {
+              this.state.wrong++;
+            }
+            this.setState({
+              step: this.state.step + 1
+            });
+        },
+
+        setAnswer: function(currentAnswer) {
+            this.setState({currentAnswer: currentAnswer});
+        },
+
+        render: function() {
+
+          if(this.state.questions.length == 0) {
+            return <div></div>;
+          }
+
+          if(this.state.step === this.state.questions.length) {
+            return(
+              <div className="complete">
+                <div>Quiz Complete</div>
+                <div>Correct: {this.state.correct}</div>
+                <div>Wrong: {this.state.wrong}</div>
+              </div>
+            );
+          }
+
+          var question = this.state.questions[this.state.step];
+
+          return(
+            <div className="quiz">
+                <h2>Question no: {this.state.step+1}</h2>
+                <Question data={question} onAnswer={this.setAnswer} />
+                <button className="next" onClick={this.nextQuestion}>Next</button>
+
+                <div>Correct: {this.state.correct}</div>
+                <div>Wrong: {this.state.wrong}</div>
+            </div>
+          );
+        }
+      })
+
+      ReactDOM.render(
+        <Quiz url="/api/questions" />, document.getElementById('content')
+      )
+    </script>
+  </body>
+</html>
